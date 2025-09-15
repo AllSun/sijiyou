@@ -46,13 +46,16 @@
 
 
 
-/* 轮播图样式 */
+
+/* 轮播图样式  */
 .swiper {
     height: 400rpx;
     position: relative;
     border-radius: 0 0 16rpx 16rpx;
     overflow: hidden;
+    z-index: 1;
 }
+
 
 .swiper image {
     width: 100%;
@@ -81,12 +84,24 @@
     opacity: 0.9;
 }
 
+.house-background {
+  background-image: url('http://121.37.136.16:8080/house-background.png');
+  background-size: auto;         /* 背景图覆盖整个容器 */
+  background-repeat: no-repeat;
+  background-position: center;    /* 居中显示 */
+  position: relative;             /* 让 z-index 生效 */
+  margin-top: -20rpx;             /* 向上溢出轮播图，可调节数值 */
+  z-index: 5;                     /* 背景图层级高于轮播图 */
+  padding-top: 80rpx;             /* 保留内容与轮播图间距 */
+}
+
+
 /* 品牌介绍区域 */
 .brand-intro {
     padding: 30rpx;
-    background: white;
     margin: 20rpx 0;
     border-radius: 16rpx;
+    
 }
 
 .section-title {
@@ -128,19 +143,12 @@
 }
 
 .brand-item image {
-    width: 80rpx;
-    height: 80rpx;
+    width: 120rpx;
+    height: 140rpx;
     margin-bottom: 15rpx;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #4e54c8, #8f94fb);
-    padding: 15rpx;
+    /* padding: 15rpx; */
 }
 
-.brand-item text {
-    font-size: 24rpx;
-    color: #555;
-    font-weight: 500;
-}
 
 /* 热卖推荐区域 */
 .hot-sales {
