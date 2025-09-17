@@ -41,7 +41,7 @@
 
 .index-container {
     padding-bottom: 100rpx;
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
 }
 
 
@@ -85,21 +85,23 @@
 }
 
 .house-background {
-  background-image: url('http://121.37.136.16:8080/house-background.png');
-  background-size: auto;         /* 背景图覆盖整个容器 */
+  /* background-image: url('http://121.37.136.16:8080/house-background.png'); */
+  /* background-color: rgb(252, 234, 217); */
+  background: linear-gradient(to bottom, rgb(252,234,217), #ffffff);
+  /* background-size: 100% 100%;         
   background-repeat: no-repeat;
-  background-position: center;    /* 居中显示 */
-  position: relative;             /* 让 z-index 生效 */
-  margin-top: -20rpx;             /* 向上溢出轮播图，可调节数值 */
-  z-index: 5;                     /* 背景图层级高于轮播图 */
-  padding-top: 80rpx;             /* 保留内容与轮播图间距 */
+  background-position: center;    
+  position: relative;            
+  margin-top: -170rpx;             
+  z-index: 5;                     
+  padding-top: 170rpx;              */
 }
 
 
 /* 品牌介绍区域 */
 .brand-intro {
     padding: 30rpx;
-    margin: 20rpx 0;
+    /* margin: 20rpx 0; */
     border-radius: 16rpx;
     
 }

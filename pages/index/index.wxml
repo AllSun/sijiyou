@@ -59,6 +59,9 @@
     </view>
   </view>
   
+  <view class="brand-intro">
+  <img src="" alt=""/>
+  </view>
   <!-- 热卖推荐 - 旅游 -->
   <view class="hot-sales">
     <view class="section-title">热卖 - 旅游推荐</view>
