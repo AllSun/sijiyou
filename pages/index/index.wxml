@@ -1,179 +1,59 @@
-
 <view class="nav-bar" style="height: {{navBarHeight}}px; padding-top: {{statusBarHeight}}px;">
-  <image src="http://121.37.136.16:8080/images/navBar/laoyouji-font.png" class="nav-img"></image>
-  <view class="search-box">
-    <input class="search-input" placeholder="搜索..." placeholder-class="placeholder"/>
-  </view>
+    <image src="http://121.37.136.16:8080/logo.png" class="nav-img"></image>
+    <view class="search-box">
+        <input class="search-input" placeholder="搜索..." placeholder-class="placeholder" />
+    </view>
 </view>
 
-<!-- 悠然旅途首页 -->
-<view class="index-container">
 
-  <!-- 轮播图 -->
-  <swiper class="swiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}">
+
+<!-- 轮播图 -->
+<swiper class="swiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}">
     <swiper-item>
-      <image src="http://121.37.136.16:8080/images/swiper/swiper-1.png" mode="aspectFill"></image>
-      <view class="swiper-content">
-        <text class="swiper-title">雪山秘境探索</text>
-        <text class="swiper-desc">感受大自然的壮丽与宁静</text>
-      </view>
+        <image src="http://121.37.136.16:8080/images/swiper/swiper-1.png" mode="aspectFill"></image>
     </swiper-item>
     <swiper-item>
-      <image src="http://121.37.136.16:8080/images/swiper/swiper-1.png" mode="aspectFill"></image>
-      <view class="swiper-content">
-        <text class="swiper-title">海滨度假胜地</text>
-        <text class="swiper-desc">阳光、沙滩与碧蓝海水</text>
-      </view>
+        <image src="http://121.37.136.16:8080/images/swiper/swiper-1.png" mode="aspectFill"></image>
     </swiper-item>
     <swiper-item>
-      <image src="http://121.37.136.16:8080/images/swiper/swiper-1.png" mode="aspectFill"></image>
-      <view class="swiper-content">
-        <text class="swiper-title">山林徒步之旅</text>
-        <text class="swiper-desc">探索未知的自然小径</text>
-      </view>
+        <image src="http://121.37.136.16:8080/images/swiper/swiper-1.png" mode="aspectFill"></image>
     </swiper-item>
-  </swiper>
-  
-  <view class="house-background">
-  <!-- 品牌介绍 -->
-  <view class="brand-intro">
+</swiper>
+
+<view class="brand-intro">
     <view class="brand-grid">
-      <view class="brand-item">
-        <image src="http://121.37.136.16:8080/images/brand/food.png"></image>
-      </view>
-      <view class="brand-item">
-        <image src="http://121.37.136.16:8080/images/brand/house.png"></image>
-      </view>
-      <view class="brand-item">
-        <image src="http://121.37.136.16:8080/images/brand/map.png"></image>
-      </view>
-      <view class="brand-item">
-        <image src="http://121.37.136.16:8080/images/brand/plane.png"></image>
-      </view>
-      <view class="brand-item">
-        <image src="http://121.37.136.16:8080/images/brand/train.png"></image>
-      </view>
-      <view class="brand-item">
-        <image src="http://121.37.136.16:8080/images/brand/caravan.png"></image>
-      </view>
+        <view class="brand-item">
+            <image src="http://121.37.136.16:8080/1.png"></image>
+        </view>
+        <view class="brand-item">
+            <image src="http://121.37.136.16:8080/2.png"></image>
+        </view>
+        <view class="brand-item">
+            <image src="http://121.37.136.16:8080/3.png"></image>
+        </view>
+        <view class="brand-item">
+            <image src="http://121.37.136.16:8080/4.png"></image>
+        </view>
+        <view class="brand-item">
+            <image src="http://121.37.136.16:8080/5.png"></image>
+        </view>
+        <view class="brand-item">
+            <image src="http://121.37.136.16:8080/6.png"></image>
+        </view>
     </view>
-  </view>
-  
-  <view class="brand-intro">
-  <img src="" alt=""/>
-  </view>
-  <!-- 热卖推荐 - 旅游 -->
-  <view class="hot-sales">
-    <view class="section-title">热卖 - 旅游推荐</view>
-    <view class="product-grid">
-      <view class="product-card">
-        <image src="http://121.37.136.16:8080/images/swiper/product1.jpg" class="product-image"></image>
-        <view class="product-tag">热门</view>
-        <view class="product-info">
-          <text class="product-title">丽江古城文化探索3日游</text>
-          <text class="product-price">¥699<text class="original-price">¥899</text></text>
-        </view>
-      </view>
-      <view class="product-card">
-        <image src="http://121.37.136.16:8080/images/swiper/product2.jpg" class="product-image"></image>
-        <view class="product-tag">特价</view>
-        <view class="product-info">
-          <text class="product-title">三亚阳光海滩5日度假套餐</text>
-          <text class="product-price">¥1299<text class="original-price">¥1599</text></text>
-        </view>
-      </view>
-    </view>
-  </view>
-  
-  <!-- 热卖推荐 - 生活剧场 -->
-  <view class="hot-sales">
-    <view class="section-title">热卖 - 生活剧场</view>
-    <view class="product-grid">
-      <view class="product-card">
-        <image src="http://121.37.136.16:8080/images/swiper/life1.jpg" class="product-image"></image>
-        <view class="product-info">
-          <text class="product-title">传统文化手工艺体验课</text>
-          <text class="product-price">¥199<text class="original-price">¥299</text></text>
-        </view>
-      </view>
-      <view class="product-card">
-        <image src="http://121.37.136.16:8080/images/swiper/life2.jpg" class="product-image"></image>
-        <view class="product-info">
-          <text class="product-title">地方美食制作工作坊</text>
-          <text class="product-price">¥159<text class="original-price">¥199</text></text>
-        </view>
-      </view>
-    </view>
-  </view>
-  
-  <!-- 热卖推荐 - 老友甄选 -->
-  <view class="hot-sales">
-    <view class="section-title">热卖 - 老友甄选</view>
-    <view class="product-grid">
-      <view class="product-card">
-        <image src="http://121.37.136.16:8080/images/swiper/select1.jpg" class="product-image"></image>
-        <view class="product-info">
-          <text class="product-title">便携旅行套装（洗漱用品）</text>
-          <text class="product-price">¥89<text class="original-price">¥129</text></text>
-        </view>
-      </view>
-      <view class="product-card">
-        <image src="http://121.37.136.16:8080/images/swiper/select2.jpg" class="product-image"></image>
-        <view class="product-info">
-          <text class="product-title">多功能旅行背包</text>
-          <text class="product-price">¥259<text class="original-price">¥399</text></text>
-        </view>
-      </view>
-    </view>
-  </view>
-  
-  <!-- 更多推荐 -->
-  <view class="more-recommend">
-    <view class="section-title">更多推荐 - 旅游</view>
-    <view class="product-grid">
-      <view class="product-card">
-        <image src="/images/swiper/travel1.jpg" class="product-image"></image>
-        <view class="product-info">
-          <text class="product-title">张家界国家森林公园2日游</text>
-          <text class="product-price">¥499<text class="original-price">¥699</text></text>
-        </view>
-      </view>
-      <view class="product-card">
-        <image src="/images/swiper/travel2.jpg" class="product-image"></image>
-        <view class="product-info">
-          <text class="product-title">上海都市风情3日游</text>
-          <text class="product-price">¥899<text class="original-price">¥1099</text></text>
-        </view>
-      </view>
-      <view class="product-card">
-        <image src="/images/swiper/travel3.jpg" class="product-image"></image>
-        <view class="product-info">
-          <text class="product-title">西藏高原探险7日之旅</text>
-          <text class="product-price">¥2899<text class="original-price">¥3299</text></text>
-        </view>
-      </view>
-      <view class="product-card">
-        <image src="/images/swiper/travel4.jpg" class="product-image"></image>
-        <view class="product-info">
-          <text class="product-title">黄山奇松怪石2日徒步</text>
-          <text class="product-price">¥459<text class="original-price">¥599</text></text>
-        </view>
-      </view>
-      <view class="product-card">
-        <image src="/images/swiper/travel5.jpg" class="product-image"></image>
-        <view class="product-info">
-          <text class="product-title">杭州西湖文化1日游</text>
-          <text class="product-price">¥199<text class="original-price">¥299</text></text>
-        </view>
-      </view>
-      <view class="product-card">
-        <image src="/images/swiper/travel6.jpg" class="product-image"></image>
-        <view class="product-info">
-          <text class="product-title">青岛海滨度假4日套餐</text>
-          <text class="product-price">¥1199<text class="original-price">¥1499</text></text>
-        </view>
-      </view>
-    </view>
-  </view>
 </view>
+
+<view class="content">
+    <view class="brand-title">
+            <image src="http://121.37.136.16:8080/brand-intro.png"></image>
+    </view>
+    <view class="hot">
+            <image src="http://121.37.136.16:8080/food-hot.png"></image>
+    </view>
+    <view class="hot">
+            <image src="http://121.37.136.16:8080/life-hot.png"></image>
+    </view>
+    <view class="hot">
+            <image src="http://121.37.136.16:8080/selection-hot.png"></image>
+    </view>
 </view>
