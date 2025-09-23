@@ -1,2 +1,91 @@
-<!--pages/life/life.wxml-->
-<text>pages/life/life.wxml</text>
+<view class="nav-bar" style="height: {{navBarHeight}}px; padding-top: {{statusBarHeight}}px;">
+    <image src="http://121.37.136.16:8080/logo.png" class="nav-img"></image>
+    <view class="search-box">
+        <input class="search-input" placeholder="搜索..." placeholder-class="placeholder" />
+    </view>
+</view>
+
+
+
+<!-- 轮播图 -->
+<swiper class="swiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}">
+    <swiper-item>
+        <image src="http://121.37.136.16:8080/swiper.png" mode="aspectFill"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="http://121.37.136.16:8080/swiper.png" mode="aspectFill"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="http://121.37.136.16:8080/swiper.png" mode="aspectFill"></image>
+    </swiper-item>
+</swiper>
+<!-- 品牌图标 -->
+<view class="brand-intro">
+    <view class="brand-grid">
+        <view class="brand-item">
+            <image src="http://121.37.136.16:8080/yxsl.png"></image>
+        </view>
+        <view class="brand-item">
+            <image src="http://121.37.136.16:8080/hwqy.png"></image>
+        </view>
+        <view class="brand-item">
+            <image src="http://121.37.136.16:8080/sshd.png"></image>
+        </view>
+    </view>
+</view>
+<!-- 更多旅游推荐 - more -->
+<view class="hot-travel">
+    <view class="section-header">
+        <view class="section-title">更多推荐-旅游</view>
+        <view class="sub-title">更多</view>
+    </view>
+    <view class="hot">
+        <image src="http://121.37.136.16:8080/pic3.png"></image>
+    </view>
+    <view class="hot">
+        <image src="http://121.37.136.16:8080/pic4.png"></image>
+    </view>
+</view>
+
+<view class="hot-travel">
+  <view class="section-header">
+    <view class="section-title">更多推荐-旅游</view>
+    <view class="sub-title">更多</view>
+  </view>
+  <view class="product-grid">
+
+    <view class="product-card">
+      <image src="http://121.37.136.16:8080/travel-demo.png" class="product-image"></image>
+      <view class="product-info">
+        <text class="product-title">老友记3日游</text>
+        <text class="currency">¥</text>699
+      </view>
+    </view>
+
+    <view class="product-card">
+      <image src="http://121.37.136.16:8080/travel-demo.png" class="product-image"></image>
+      <view class="product-info">
+        <text class="product-title">老友记3日游</text>
+        <text class="currency">¥</text>699
+      </view>
+    </view>
+
+  </view>
+</view>
+
+
+<view class="hot-travel">
+    <view class="section-header">
+        <view class="section-title">更多推荐-悦享沙龙</view>
+        <view class="sub-title">更多</view>
+    </view>
+    <view class="hot">
+        <image src="http://121.37.136.16:8080/pic3.png"></image>
+    </view>
+    <view class="hot">
+        <image src="http://121.37.136.16:8080/pic4.png"></image>
+    </view>
+    <view class="hot">
+        <image class="last-img" src="http://121.37.136.16:8080/jingcai.png"></image>
+    </view>
+</view>

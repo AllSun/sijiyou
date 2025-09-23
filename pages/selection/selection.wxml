@@ -1,2 +1,86 @@
-<!--pages/selection/selection.wxml-->
-<text>pages/selection/selection.wxml</text>
+<view class="nav-bar" style="height: {{navBarHeight}}px; padding-top: {{statusBarHeight}}px;">
+    <image src="http://121.37.136.16:8080/logo.png" class="nav-img"></image>
+    <view class="search-box">
+        <input class="search-input" placeholder="搜索..." placeholder-class="placeholder" />
+    </view>
+</view>
+
+
+
+<!-- 轮播图 -->
+<swiper class="swiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}">
+    <swiper-item>
+        <image src="http://121.37.136.16:8080/swiper3.png" mode="aspectFill"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="http://121.37.136.16:8080/swiper.png" mode="aspectFill"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="http://121.37.136.16:8080/swiper.png" mode="aspectFill"></image>
+    </swiper-item>
+</swiper>
+<!-- 品牌图标 -->
+<view class="brand-intro">
+
+</view>
+<!-- 更多旅游推荐 - more -->
+<view class="hot-travel">
+    <view class="section-header">
+        <view class="section-title">颐养好物-当季甄选</view>
+        <view class="sub-title">更多</view>
+    </view>
+    <view class="product-grid">
+
+        <view class="product-card">
+            <image src="http://121.37.136.16:8080/zhenxuan.png" class="product-image"></image>
+            <view class="product-info">
+                <text class="product-title">健康好物</text>
+                <text class="currency">¥</text>699
+            </view>
+        </view>
+
+        <view class="product-card">
+            <image src="http://121.37.136.16:8080/zhenxuan.png" class="product-image"></image>
+            <view class="product-info">
+                <text class="product-title">健康好物</text>
+                <text class="currency">¥</text>699
+            </view>
+        </view>
+
+        <view class="product-card">
+            <image src="http://121.37.136.16:8080/zhenxuan.png" class="product-image"></image>
+            <view class="product-info">
+                <text class="product-title">健康好物</text>
+                <text class="currency">¥</text>699
+            </view>
+        </view>
+
+        <view class="product-card">
+            <image src="http://121.37.136.16:8080/zhenxuan.png" class="product-image"></image>
+            <view class="product-info">
+                <text class="product-title">健康好物</text>
+                <text class="currency">¥</text>699
+            </view>
+        </view>
+
+        <view class="product-card">
+            <image src="http://121.37.136.16:8080/zhenxuan.png" class="product-image"></image>
+            <view class="product-info">
+                <text class="product-title">健康好物</text>
+                <text class="currency">¥</text>699
+            </view>
+        </view>
+
+        <view class="product-card">
+            <image src="http://121.37.136.16:8080/zhenxuan.png" class="product-image"></image>
+            <view class="product-info">
+                <text class="product-title">健康好物</text>
+                <text class="currency">¥</text>699
+            </view>
+        </view>
+
+    </view>
+    <view class="hot">
+        <image class="last-img" src="http://121.37.136.16:8080/jingcai.png"></image>
+    </view>
+</view>

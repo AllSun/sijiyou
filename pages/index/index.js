@@ -5,7 +5,7 @@ Page({
       menuButtonInfo: null
     },
     onLoad() {
-      const systemInfo = wx.getSystemInfoSync();
+      const systemInfo = wx.getWindowInfo();
       const menuButtonInfo = wx.getMenuButtonBoundingClientRect();
   
       const navBarHeight = systemInfo.statusBarHeight +
